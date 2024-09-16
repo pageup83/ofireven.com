@@ -2015,9 +2015,10 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 	}
-		.icon a {
-		text-decoration: none;
-		}
+	.icons .icon a {
+		text-decoration: none !important;
+		border-bottom: none !important;
+	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
