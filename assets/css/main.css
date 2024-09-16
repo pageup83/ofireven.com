@@ -2323,6 +2323,16 @@ input, select, textarea {
 			ul.icons.major li {
 				padding-right: 3.5em;
 			}
+			/* Remove outline from focused icon links */
+			ul.icons.major li a:focus {
+    		outline: none;
+    		border-bottom-color: transparent;
+			}
+
+			/* Optional: Add a subtle highlight for accessibility */
+			ul.icons.major li a:focus {
+				box-shadow: 0 0 0 3px rgba(0, 255, 242, 0.637);
+			}
 
 				@media screen and (max-width: 736px) {
 
