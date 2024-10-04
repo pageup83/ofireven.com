@@ -2978,11 +2978,12 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
-
+		/* disabled style to remove coloring and dimmed text color.
 		.wrapper.style3 {
 			background-color: #505393;
 			color: #d3d4e4;
 		}
+		*/
 
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #ffffff;
